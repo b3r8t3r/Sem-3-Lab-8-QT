@@ -1,5 +1,5 @@
 #include "gronsfeld.h"
-#include <Math.h>
+#include <math.h>
 #include <vector>
 
 Gronsfeld::Gronsfeld()
@@ -20,8 +20,6 @@ void Gronsfeld::SetKey(int _key){
     key = _key;
 }
 void Gronsfeld::Encrypt(){
-
-    //Рабочий варик
 
     int keyLen = 0;
     for (int temp = key; temp > 0; keyLen++) {
